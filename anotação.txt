@@ -1,0 +1,6 @@
+NodeJS = é um interpretar javascript desvinculado do navegador
+Frontend para Backend
+Motor V8 Google (interpretador) + Libub (características backend)
+Aproveita a CPU, muito leve, pouca memória RAM. Linguagem javascript. Grande ecossistema de bibliotecas, plugins, etc (npm). Grande número de requisições.
+Ebay, Netflix, Microsoft, Paypal, Uber
+

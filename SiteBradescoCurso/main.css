@@ -1,0 +1,69 @@
+:root {
+    --green: #00FF00;
+    --white: #FFFFFF;
+    --black: #000000;
+
+}
+
+* {
+    color: var(--fontColor);
+    font-family: 'Times New Roman';
+
+}
+
+body {
+    background: var(--bg);
+
+}
+
+ul {
+    font-family: Verdana;
+
+}
+
+li {
+    list-style: circle;
+    
+}
+  
+.lista {   
+    list-style: square;
+    
+}
+
+/*#msg {
+    font-family: sans-serif;
+    
+}*/
+
+.light-theme {
+    --bg: var(--green);
+    --fontColor: var(--black);
+    --botaoFonte: var(--white);
+    --botaoFundo: var(--black);
+    
+}
+
+.dark-theme {
+    --bg: var(--black);
+    --fontColor: var(--white);
+    --botaoFonte: var(--green);
+    --botaoFundo: var(--white);
+
+}
+
+.btn {
+    position: absolute;
+    top: 20px;
+    left: 1000px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: none;
+    color: var(--botaoFonte);
+    background: var(--botaoFundo);
+
+}
+
+.btn:focus {outline-style: none;}
+

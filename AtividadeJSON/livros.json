@@ -1,0 +1,68 @@
+[
+    {
+        "titulo": "Cibercultura",
+        "autor": "Pierre Levy",
+        "ISBN": "978-8573261264",
+        "nota": 8.5
+    },
+    {
+        "titulo": "A riqueza das nações",
+        "autor": "Adam Smith",
+        "ISBN": "978-8536214092",
+        "nota": 7.8
+    },
+    {
+        "titulo": "A identidade cultural na pós-modernidade",
+        "autor": "Stuart Hall",
+        "ISBN": "978-8583160076",
+        "nota": 7
+    },
+    {
+        "titulo": "Metafísica",
+        "autor": "Aristóteles",
+        "ISBN": "978-8572838115",
+        "nota": 9.3
+    },
+    {
+        "titulo": "Apologia de Sócrates",
+        "autor": "Platão",
+        "ISBN": "978-8552100669",
+        "nota": 8.7
+    },
+    {
+        "titulo": "Assim falou Zaratustra",
+        "autor": "Friedrich Nietzsche",
+        "ISBN": "978-8572328562",
+        "nota": 9.7
+    },
+    {
+        "titulo": "Os sofrimentos do Jovem Werther",
+        "autor": "Johann Wolfgang von Goethe",
+        "ISBN": "978-8582851401",
+        "nota": 8
+    },
+    {
+        "titulo": "O que há de errado com o mundo?",
+        "autor": "Gilbert Keith Chesterton",
+        "ISBN": "978-8563160287",
+        "nota": 9.5
+    },
+    {
+        "titulo": "Guia politicamente incorreto da filosofia",
+        "autor": "Luiz Felipe Pondé",
+        "ISBN": "978-8580444384",
+        "nota": 8.8
+    },
+    {
+        "titulo": "O alienista",
+        "autor": "Machado de Assís",
+        "ISBN": "978-8563560933",
+        "nota": 9
+    },
+    {
+        "titulo": "O Príncipe",
+        "autor": "Nicolau Maquiavel",
+        "ISBN": "978-8572839044",
+        "nota": 6
+    }
+]

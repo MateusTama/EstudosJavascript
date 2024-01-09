@@ -1,0 +1,111 @@
+/* Estiliza todos os bodys. Adiciona a imagem de fundo no site */
+body{
+    background-image: url(imagens/imagem-fundo.png);
+}
+
+/* Estiliza a classe corpo */
+/* Classe para alinhar os elementos no centro */
+.corpo {
+    text-align: center;
+}
+
+/* Estiliza a lista não ordenada (ul) da classe menu */
+/* Adiciona cor de fundo. Tira as margens. Adiciona padding de 20px para cima, baixo e dos lados. Tira o estilo da lista */
+.menu ul{
+    padding: 20px;
+    margin:  0px;
+    background-color:Salmon;
+    list-style: none;
+}
+
+/* Estiliza os elementos da lista não ordenada (ul) da classe menu */
+/* Alinhamento no centro */
+.menu ul li{
+    display: inline;
+    text-align: center;
+}
+
+/* Estiliza os links âncora dos elementos da lista não ordenada (ul) da classe menu */
+/* Adiciona espaçamento entro os espaçamentos, cor de fundo, cor preta para as letras e tira a decoração dos links âncoras */
+.menu ul li a{
+    padding: 2px 10px;
+    background-color: #BC8F8F;
+    color: black;
+    text-decoration: none;
+   
+/* Estiliza os links âncora dos elementos da lista não ordenada (ul) da classe menu */
+/* Muda a cor de fundo e a cor dos elementos quando passamos o mouse por cima. Adiciona uma bordinha embaixo desses elementos */
+}.menu ul li a:hover{
+    background-color: #FF0000;
+    color: #DAA520;
+    border-bottom: 8px solid #D2691E;
+}
+
+/* Estiliza a classe menu */
+/* O tamanho do elemento (width) será a soma do conteúdo com a “borda” e o “padding“. */
+.menu{
+        box-sizing: border-box;
+}
+
+/* Estiliza a classe rodape (footer) */
+/* Adiciona cor de fundo, cor das letras, aumento o espaçamento interno (margem interna), alinha o conteúdo da classe no centro*/
+.rodape {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Estiliza a classe texto */
+/* Adiciona cor ao elemento que herdar está classe */
+.texto{
+    color: OrangeRed;
+}
+
+/* Estiliza a classe tituloprincipal */
+/* Adiciona cor ao conteúdo, aumenta a espessura da fonte do contéudo, adiciona outra fonte de letras */
+.tituloprincipal{
+    color: FireBrick;
+    font-weight: 900;
+    font-family: Arial;
+}
+
+/* Estiliza a classe titulobaixo */
+/* Adiciona cor ao contéudo, aumenta a espessura da fonte do conteúdo, adiciona outra fonte de letras */
+.titulobaixo{
+    color: Orange;
+    font-weight: 900;
+    font-family: Arial;
+}
+
+/* Estiliza a classe corform */
+/* Adiciona cor na borda do elemento que herdar esta classe, aumenta a espessura da fonte do conteúdo, adiciona outra fonte de letras, adiciona cor ao conteúdo, alinhamento no centro e o tamanho da borda é aumentado */
+.corform{
+    border: thin solid red;
+    font-weight: 900;
+    font-family: Arial;
+    color: FireBrick;
+    text-align: center;
+
+}
+
+/* Estiliza o id resultadoTreino */
+/* Adiciona espessura da fonte do conteúdo, muda a família da fonte das letras e adiciona cor ao conteúdo */
+#resultadoTreino {
+    font-weight: 900;
+    font-family: Arial;
+    color: FireBrick;
+    
+}
+
+/* Estiliza o fieldset dos formulários */
+/* Adiciona cor a borda, aumento o tamanho da borda, muda o estilo da borda, aumenta a espessura da fonte do conteúdo, muda a família da fonte das letras, muda a cor do conteúdo e alinha o contéudo no centro */
+fieldset {
+    border-color: red;
+    border-width: 3px;
+    border-style: solid;
+    font-weight: 900;
+    font-family: Arial;
+    color: FireBrick;
+    text-align: center;
+}

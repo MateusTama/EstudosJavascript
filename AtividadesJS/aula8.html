@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso de Java Script</title>
+</head>
+<body>
+    <script>
+
+        var nomeJogador1 = prompt("Jogador 1, Digite um nome de usuário: ");
+        var numJogador1 = parseInt(prompt("" + nomeJogador1 + ", Digite um número: "));
+        var nomeJogador2 = prompt("Jogador 2, Digite um nome de usuário: ");
+        var numJogador2 = parseInt(prompt("" + nomeJogador2 + ", Digite um número: "));
+        if(numJogador1 == numJogador2){
+            alert("Ambos os jogadores escolheram o mesmo número. Empate!");
+        } else {
+            var valorJogador1 = 0;
+            var valorJogador2 = 0;
+            if(numJogador1 > numJogador2){
+                valorJogador1 = 1;
+            } else {
+                valorJogador2 = 1;
+            }
+            alert("O número de "+ nomeJogador1 + " é " + valorJogador1);
+            alert("O número de "+ nomeJogador2 + " é " + valorJogador2);
+            var sorteio = Math.random() * 2;
+            numSorteado = parseInt(sorteio);
+            alert("O número sorteado foi " + numSorteado);
+            if(numSorteado == valorJogador1){
+                alert("" + nomeJogador1 + " (jogador 1), foi o vencedor!");
+            } else {
+                alert("" + nomeJogador2 + " (jogador 2), foi o vencedor!");
+            }
+
+        }
+
+
+
+        
+
+    </script>
+    
+</body>
+</html>
